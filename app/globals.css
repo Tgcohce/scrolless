@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 320 15% 28%; /* Based on #513b41 */
+    --card: 0 0% 100%;
+    --card-foreground: 320 15% 28%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 320 15% 28%;
+    --primary: 330 100% 45%; /* Based on #E6007A */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 187 77% 71%; /* Based on #7fe5f0 */
+    --secondary-foreground: 320 15% 28%;
+    --muted: 187 77% 95%; /* Lighter version of cyan */
+    --muted-foreground: 320 15% 45%;
+    --accent: 187 77% 90%; /* Based on #c9f4fa */
+    --accent-foreground: 320 15% 28%;
+    --destructive: 359 94% 60%; /* Based on #f83839 */
+    --destructive-foreground: 0 0% 100%;
+    --border: 187 77% 85%;
+    --input: 187 77% 85%;
+    --ring: 330 100% 45%;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.breathing-circle {
+  animation: breathe 6s ease-in-out infinite;
+  background: linear-gradient(45deg, #7fe5f0, #e6007a);
+}
+
+@keyframes breathe {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.7;
+  }
+}
