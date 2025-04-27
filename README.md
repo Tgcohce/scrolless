@@ -11,6 +11,8 @@
   ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8)
 </div>
 
+#### Quick Note: Currently Scrolless is in beta (on assethub testnet) and staking mechanism is only available to WND tokens.
+
 ## 📱 About Scrolless
 
 Scrolless is an innovative mobile application that incentivizes digital wellbeing by rewarding users for reducing their screen time. Users stake DOT tokens and commit to daily screen time limits. If they meet their goals, they earn rewards; if not, their stake goes to the community pool.
@@ -178,5 +180,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-  <p>Built with ❤️</p>
+  <p>Built with ❤️ by Tolga</p>
 </div>
