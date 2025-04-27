@@ -51,40 +51,40 @@ Scrolless introduces a financial incentive layer to digital wellbeing. By stakin
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/tgcohce/scrolless.git
    cd scrolless
-   \`\`\`
+   ```
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
    # or
    yarn install
-   \`\`\`
+   ```
 
 3. Create a `.env.local` file in the root directory with the following variables:
-   \`\`\`
+   ```
    NEXT_PUBLIC_CONTRACT_ADDRESS=your_contract_address
    NEXT_PUBLIC_RPC_URL=your_rpc_url
-   \`\`\`
+   ```
 
 4. Run the development server:
-   \`\`\`bash
+   ```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+   ```
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Building for Production
 
-\`\`\`bash
+```bash
 npm run build
 # or
 yarn build
-\`\`\`
+```
 
 ## 📖 How to Use
 
@@ -106,7 +106,7 @@ Scrolless uses a custom color palette:
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 scrolless/
 ├── app/                  # Next.js app directory
 │   ├── dashboard/        # Dashboard page
@@ -132,7 +132,7 @@ scrolless/
 ├── package.json          # Project dependencies
 ├── tailwind.config.js    # Tailwind CSS configuration
 └── tsconfig.json         # TypeScript configuration
-\`\`\`
+```
 
 ## 🤝 Contributing
 
